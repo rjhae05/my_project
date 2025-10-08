@@ -1,80 +1,6 @@
-A full-stack web application built with FERN — MySQL, Express.js, React (with Tailwind CSS), and Node.js.
+A full-stack web application built with MERN — MySQL, Express.js, React (with Tailwind CSS), and Node.js.
 This setup provides a modern, scalable architecture for web apps with authentication, API integration, and clean UI styling.
 
-🧱 Tech Stack
-Frontend
-
-⚛️ React (Vite)
-
-🎨 Tailwind CSS
-
-🌐 Axios for API communication
-
-🧭 React Router DOM
-
-🧠 Context API for global state management
-
-Backend
-
-🟢 Node.js
-
-🚀 Express.js
-
-🗄️ MySQL (using mysql2)
-
-🔐 Authentication using bcryptjs + jsonwebtoken
-
-⚙️ Other tools: dotenv, cors, multer, morgan, nodemon
-
-📁 Project Structure
-Backend
-backend/
-├─ config/
-│  └─ db.js              # Database connection
-│
-├─ controllers/          # Business logic
-│  └─ userController.js
-│
-├─ models/               # Database queries / ORM
-│  └─ userModel.js
-│
-├─ routes/               # API endpoints
-│  └─ userRoutes.js
-│
-├─ middleware/
-│  └─ authMiddleware.js
-│
-├─ uploads/              # Uploaded files (if using multer)
-│
-├─ .env
-├─ package.json
-├─ server.js             # Entry point
-└─ requirements.txt      # Backend dependencies
-
-Frontend
-frontend/
-├─ public/
-│  ├─ index.html
-│  ├─ favicon.ico
-│  └─ logo.png
-│
-├─ src/
-│  ├─ api/axios.js
-│  ├─ assets/
-│  ├─ components/
-│  ├─ context/
-│  ├─ hooks/
-│  ├─ pages/
-│  ├─ styles/
-│  ├─ App.jsx
-│  ├─ main.jsx
-│  └─ router.jsx
-│
-├─ .env
-├─ package.json
-├─ postcss.config.js
-├─ tailwind.config.js
-└─ vite.config.js
 
 ⚙️ Installation & Setup
 1. Clone the Repository
@@ -144,7 +70,7 @@ npm run preview	Preview the production build
 
 Run this SQL script in your MySQL console:
 
-CREATE DATABASE fern_db;
+CREATE DATABASE mern_db;
 
 USE fern_db;
 
@@ -180,5 +106,4 @@ autoprefixer
 💡 Author
 
 👨‍💻 Developed by: Sir Aries
-🏫 Institution: ACTEC
-🧰 Tech Stack: FERN (MySQL, Express, React, Node.js) make it a codes 
+🧰 Tech Stack: MERN (MySQL, Express, React, Node.js) make it a codes 
