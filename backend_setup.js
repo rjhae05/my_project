@@ -26,14 +26,32 @@ DB_PASS=
 DB_NAME=ferndb
 JWT_SECRET=mysecretkey
 `,
-  "requirements.txt": `express
+  "backend_requirements.txt": `# Web framework for building APIs and handling routes
+express
+
+# MySQL database connector and query builder
 mysql2
+
+# Loads environment variables from a .env file
 dotenv
+
+# Library for hashing and comparing passwords securely
 bcryptjs
+
+# For creating and verifying JSON Web Tokens (JWT) for authentication
 jsonwebtoken
+
+# Middleware for handling file uploads (images, documents, etc.)
 multer
+
+# Enables Cross-Origin Resource Sharing (for connecting frontend and backend)
 cors
+
+# HTTP request logger middleware (helps in debugging API requests)
 morgan
+
+# Utility for automatically restarting the server during development
+nodemon
 `,
 
   // CONFIG

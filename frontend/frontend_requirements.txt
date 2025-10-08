@@ -1,0 +1,25 @@
+# Frontend dependencies and their purposes
+
+# Core React library for building user interfaces
+react
+
+# React DOM library for rendering components to the browser
+react-dom
+
+# Library for routing and navigation between pages
+react-router-dom
+
+# HTTP client for making API requests to the backend
+axios
+
+# Utility-first CSS framework for styling and layout
+tailwindcss
+
+# PostCSS processor for transforming styles
+postcss
+
+# Automatically adds vendor prefixes to CSS for browser compatibility
+autoprefixer
+
+# Frontend build tool and development server
+vite
